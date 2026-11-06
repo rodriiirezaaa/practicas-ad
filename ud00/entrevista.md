@@ -8,7 +8,7 @@ Esta actividad es formativa y no lleva nota: sirve para conocer tu punto de part
 
 ### 1. ¿Qué lenguajes de programación has utilizado?
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** Java, javascript, php
 
 ### 2. Identifica el lenguaje de cada fragmento e indica qué valor muestra. Por ejemplo: «1. Java; valor: 9».
 
@@ -20,8 +20,8 @@ for (int n : new int[]{2, 3, 4}) total += n;
 System.out.println(total);
 ```
 
-Lenguaje: Todavía no lo sé.  
-Valor mostrado: Todavía no lo sé.
+Lenguaje: java
+Valor mostrado:
 
 **2**
 
@@ -32,8 +32,8 @@ for n in [2, 3, 4]:
 print(total)
 ```
 
-Lenguaje: Todavía no lo sé.  
-Valor mostrado: Todavía no lo sé.
+Lenguaje: 
+Valor mostrado: 
 
 **3**
 
@@ -43,8 +43,8 @@ for (const n of [2, 3, 4]) total += n;
 console.log(total);
 ```
 
-Lenguaje: Todavía no lo sé.  
-Valor mostrado: Todavía no lo sé.
+Lenguaje:
+Valor mostrado: 
 
 ### 3. ¿Qué muestra este programa? Explica brevemente qué calcula la función.
 
@@ -59,7 +59,7 @@ def resumir(numeros):
 print(resumir([3, -2, 5]))
 ```
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:**
 
 ## Bases de datos
 
@@ -74,27 +74,27 @@ HAVING COUNT(p.id) > 1
 ORDER BY total_pedidos DESC;
 ```
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** 
 
 ### 5. ¿Para qué sirve una clave primaria en una tabla? Explícalo con tus propias palabras.
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** 
 
 ### 6. En una base de datos, ¿qué relación suele existir entre un cliente y sus pedidos?
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** ID
 
 ### 7. ¿Qué diferencia básica hay entre guardar datos en tablas relacionadas y guardarlos como documentos JSON?
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** 
 
 ### 8. ¿Has creado o consultado alguna base de datos? ¿Cuál?
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:**  si, de ejemplo en clase
 
 ### 9. ¿Has trabajado (o en clase) conectando una aplicación a un almacén de datos? ¿Cuál y cómo? Descríbelo brevemente.
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** si, en mysql a un archivo .bd
 
 ## Git
 
@@ -102,7 +102,7 @@ ORDER BY total_pedidos DESC;
 
 **1:** primer contacto; **10:** uso habitual y con soltura.
 
-**Respuesta:** Todavía no lo sé.
+**Respuesta:** si, la he utilizado para otras clases y para uso mio personal, nota: 7
 
 ## Presentación
 
