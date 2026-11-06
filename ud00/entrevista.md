@@ -8,7 +8,7 @@ Esta actividad es formativa y no lleva nota: sirve para conocer tu punto de part
 
 ### 1. ¿Qué lenguajes de programación has utilizado?
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 2. Identifica el lenguaje de cada fragmento e indica qué valor muestra. Por ejemplo: «1. Java; valor: 9».
 
@@ -20,8 +20,8 @@ for (int n : new int[]{2, 3, 4}) total += n;
 System.out.println(total);
 ```
 
-Lenguaje:  
-Valor mostrado:
+Lenguaje: Todavía no lo sé.  
+Valor mostrado: Todavía no lo sé.
 
 **2**
 
@@ -32,8 +32,8 @@ for n in [2, 3, 4]:
 print(total)
 ```
 
-Lenguaje:  
-Valor mostrado:
+Lenguaje: Todavía no lo sé.  
+Valor mostrado: Todavía no lo sé.
 
 **3**
 
@@ -43,8 +43,8 @@ for (const n of [2, 3, 4]) total += n;
 console.log(total);
 ```
 
-Lenguaje:  
-Valor mostrado:
+Lenguaje: Todavía no lo sé.  
+Valor mostrado: Todavía no lo sé.
 
 ### 3. ¿Qué muestra este programa? Explica brevemente qué calcula la función.
 
@@ -59,7 +59,7 @@ def resumir(numeros):
 print(resumir([3, -2, 5]))
 ```
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ## Bases de datos
 
@@ -74,27 +74,27 @@ HAVING COUNT(p.id) > 1
 ORDER BY total_pedidos DESC;
 ```
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 5. ¿Para qué sirve una clave primaria en una tabla? Explícalo con tus propias palabras.
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 6. En una base de datos, ¿qué relación suele existir entre un cliente y sus pedidos?
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 7. ¿Qué diferencia básica hay entre guardar datos en tablas relacionadas y guardarlos como documentos JSON?
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 8. ¿Has creado o consultado alguna base de datos? ¿Cuál?
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ### 9. ¿Has trabajado (o en clase) conectando una aplicación a un almacén de datos? ¿Cuál y cómo? Descríbelo brevemente.
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ## Git
 
@@ -102,7 +102,7 @@ ORDER BY total_pedidos DESC;
 
 **1:** primer contacto; **10:** uso habitual y con soltura.
 
-**Respuesta:**
+**Respuesta:** Todavía no lo sé.
 
 ## Presentación
 
