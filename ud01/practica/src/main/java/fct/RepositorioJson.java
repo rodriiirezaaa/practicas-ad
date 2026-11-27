@@ -1,7 +1,10 @@
 package fct;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import fct.Modelo.Estado;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.function.Consumer;
 
@@ -17,12 +20,16 @@ public class RepositorioJson implements AlmacenFct {
         this.simularFallo = simularFallo;
     }
     public Estado recuperar() throws IOException {
-        // TODO: leer UTF-8, deserializar Estado, validar y propagar errores.
-        throw new UnsupportedOperationException("Implementar recuperación JSON");
+        String texto = Files.readString(ruta, StandardCharsets.UTF_8);
+        Estado estado = new ObjectMapper().readValue(texto, Estado.class);
+        Validacion.validar(estado);
+        return estado;
     }
     public void guardar(Estado estado) throws IOException {
-        // TODO: validar, serializar y llamar a EscrituraSegura.reemplazar.
-        // Notificar "estado guardado" únicamente después del reemplazo correcto.
-        throw new UnsupportedOperationException("Implementar almacenamiento JSON");
+        Validacion.validar(estado);
+        String texto = new ObjectMapper().writerWithDefaultPrettyPrinter()
+                .writeValueAsString(estado);
+        EscrituraSegura.reemplazar(ruta, texto, simularFallo);
+        notificar.accept("estado guardado");
     }
 }
